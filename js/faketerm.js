@@ -7,7 +7,7 @@
 let position = 0;
 
 let Shell = "Meme Linux v420, Nuclear Edition\n\n";
-let User = "\nUser@" + displayUser() + ":~$ ";
+let User = displayUser() + "@TA:~$ ";
 let Command = "cat members.txt\n";
 let Members = "\n   --------------------------------------------------------------------------\n" +
                 "   | Role      | Name               | Social               | Github         |\n" +
