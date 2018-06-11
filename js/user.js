@@ -1,7 +1,8 @@
 function displayUser() {
     let user = [
         "HAL9000",
-        "DATBOI"
+        "DatBoi",
+        "harambe"
     ];
     let status = user[Math.floor(Math.random() * user.length)];
     return status;
