@@ -7,7 +7,7 @@
 let position = 0;
 
 let Shell = "Meme Linux v420, Nuclear Edition\n\n";
-let User = "\n" + displayUser() + "@TA:~$ ";
+let User = displayUser() + "@TA:~$ ";
 let Command = "cat members.txt\n";
 let Members = "\n   --------------------------------------------------------------------------\n" +
                 "   | Role      | Name               | Social               | Github         |\n" +
@@ -22,10 +22,10 @@ let Members = "\n   ------------------------------------------------------------
                 "   | Developer | Lyra               |                      | LyrantheR      |\n" + 
                 "   | Developer | Vinex              |                      | Vinex0         |\n" + 
                 "   | Designer  | None Currently!    |                      |                |\n" +
-                "   --------------------------------------------------------------------------\n";
+                "   --------------------------------------------------------------------------\n\n";
                 
 let DiscordCommand = "cat discord.txt\n";
-let Discord = "\n   Join our discord at: https://discord.gg/PMRsAva\n";
+let Discord = "\n   Join our discord at: https://discord.gg/PMRsAva\n\n";
 let ClearCommand = "clear     ";
 
 document.getElementById('terminal').value = "";
