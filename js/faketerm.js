@@ -117,7 +117,7 @@ function drawLastUser() {
         return;
     }
     position = 0;
-    setTimeout(drawClearCommand, 5000);
+    setTimeout(drawClearCommand, 10000);
 }
 
 function drawClearCommand() {
