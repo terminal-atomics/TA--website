@@ -13,12 +13,13 @@ function displayMotd() {
         "Ben was right and Will was wrong",
         "Jamison is spelled Jamison",
         "loss died",
-        "loss diddnt die",
+        "loss didn't die",
         "the loss of loss",
         "your mum was a funny joke",
         "mum disowned us",
         "furries became mainstream",
-        "the fitnessgram pacer test"
+        "the fitnessgram pacer test",
+        "The darksouls of 2d platformers"
     ];
 
     document.getElementById('motd').innerText += ` ${motd[Math.floor(Math.random() * motd.length)]}.`; 

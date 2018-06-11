@@ -1,6 +1,6 @@
 /*
     Filename:   faketerm.js
-    Authors:    xX_WhatsTheGeek_Xx
+    Authors:    xX_WhatsTheGeek_Xx, LyrantheR
     Date:       11/06/2018
 */
 
