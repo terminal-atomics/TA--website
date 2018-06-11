@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="TerminalAtomics website !">
+        <meta name="keywords" content="Homepage">
+        <meta name="author" content="TerminalAtomics Team">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Members</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <script src="../js/motd.js"></script> 
+        <script src="../js/user.js"></script> 
+        <link rel="shortcut icon" href="../resources/images/favicon.gif"/>
+        <link rel='fluid-icon' type='image/png' href='../resources/images/favicon.gif'>
+    </head>
+
+    <body onload="displayMotd()">
+        <div class="background-image"></div>
+        <div class="content">
+            <div class="navbar-container">
+                <div class="navbar"> 
+                    <div class="navbar-content">
+                        <div class="navbar-item"><a class="navbar-link" href="../"><i class="fas fa-terminal"></i></a></div>
+                        <div class="navbar-item"><a class="navbar-link" href="https://github.com/terminal-atomics/">Github</a></div>
+                        <div class="navbar-item"><a class="navbar-link" href="https://gitlab.com/Terminal-Atomics/">GitLabs</a></div>
+                        <div class="navbar-item"><a class="navbar-link" href="./">Members</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <span>OUR MEMBERS</span><br>
+                <textarea id="terminal" class="terminal" style="margin-top: 25px" rows="25" cols="80" readonly></textarea>
+                <script src="../js/faketerm.js"></script> 
+            </div>
+            
+            <div class="copyright">Copyright TerminalAtomics© 2018</div>
+        </div>
+    </body>
+</html>
