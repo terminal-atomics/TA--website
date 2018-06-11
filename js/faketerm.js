@@ -6,8 +6,8 @@
 
 let position = 0;
 
-let Shell = "Meme Linux v420, Nuclear Edition\n\n";
-let User = displayUser() + "@TA:~$ ";
+let Shell = "Meme Linux v4.20, Nuclear Edition\n\n";
+let User = `${displayUser()}@HAL9000:~$`;
 let Command = "cat members.txt\n";
 let Members = "\n   --------------------------------------------------------------------------\n" +
                 "   | Role      | Name               | Social               | Github         |\n" +
@@ -130,4 +130,17 @@ function drawClearCommand() {
     position = 0;
     document.getElementById('terminal').value = "";
     setTimeout(drawUser, 500);
+}
+
+function displayUser() {
+    let user = [
+        "AhoZiorce",
+        "Ben",
+        "Extragornax",
+        "Jamason",
+        "Will",
+        "xX_WhatsTheGeek_Xx"
+    ];
+    let status = user[Math.floor(Math.random() * user.length)];
+    return status;
 }
