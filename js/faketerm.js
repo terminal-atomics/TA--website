@@ -19,7 +19,7 @@ let Members = "\n   ------------------------------------------------------------
                 "   | Founder   | Will               | @b_boy_ww#6631       | b-boy-ww       |\n" +
                 "   | Founder   | xX_WhatsTheGeek_Xx | @WhatsTheGeekYT      | AlexanderRouma |\n" + 
                 "   | Developer | Dwayer             |                      | Dewyer         |\n" + 
-                "   | Developer | Lyra               |                      | LyrantheR      |\n" + 
+                "   | Developer | Lyranthe           | @Lyra#1114           | LyrantheR      |\n" + 
                 "   | Developer | Vinex              |                      | Vinex0         |\n" + 
                 "   | Designer  | None Currently!    |                      |                |\n" +
                 "   --------------------------------------------------------------------------\n\n";
