@@ -139,7 +139,10 @@ function displayUser() {
         "Extragornax",
         "Jamason",
         "Will",
-        "xX_WhatsTheGeek_Xx"
+        "xX_WhatsTheGeek_Xx",
+        "Lyra",
+        "Vinex",
+        "Dwayer"
     ];
     let status = user[Math.floor(Math.random() * user.length)];
     return status;

@@ -19,7 +19,11 @@ function displayMotd() {
         "mum disowned us",
         "furries became mainstream",
         "the fitnessgram pacer test",
-        "the darksouls of 2D platformers"
+        "the darksouls of 2D platformers",
+        "furies ruled the earth",
+        "we were founded",
+        "vine died",
+        "i fucked your mother"
     ];
 
     document.getElementById('motd').innerText += ` ${motd[Math.floor(Math.random() * motd.length)]}.`; 
