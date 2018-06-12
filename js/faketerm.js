@@ -1,6 +1,6 @@
 /*
     Filename:   faketerm.js
-    Authors:    xX_WhatsTheGeek_Xx, LyrantheR
+    Authors:    xX_WhatsTheGeek_Xx, LyrantheR, 
     Date:       11/06/2018
 */
 
@@ -12,8 +12,8 @@ let Command = "cat members.txt\n";
 let Members = "\n   --------------------------------------------------------------------------\n" +
                 "   | Role      | Name               | Social               | Github         |\n" +
                 "   --------------------------------------------------------------------------\n" +
-                "   | Founder   | AhoZiorce          | @AhoZiorce           |                |\n" +
                 "   | Founder   | Ben                | @Ben (plane000)#8618 | plane000       |\n" +
+                "   | Founder   | AhoZiorce          | @AhoZiorce           |                |\n" +
                 "   | Founder   | Extragornax        |                      |                |\n" +
                 "   | Founder   | Jamason            |                      |                |\n" +
                 "   | Founder   | Will               | @b_boy_ww#6631       | b-boy-ww       |\n" +
@@ -117,7 +117,7 @@ function drawLastUser() {
         return;
     }
     position = 0;
-    setTimeout(drawClearCommand, 10000);
+    //setTimeout(drawClearCommand, 10000);
 }
 
 function drawClearCommand() {
