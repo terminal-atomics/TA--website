@@ -1,6 +1,6 @@
 /*
     Filename:   motd.js
-    Authors:    Ben, xX_WhatsTheGeek_Xx, Lyra
+    Authors:    Ben, xX_WhatsTheGeek_Xx, LyrantheR
     Date:       11/06/2018
 */
 
@@ -19,7 +19,7 @@ function displayMotd() {
         "mum disowned us",
         "furries became mainstream",
         "the fitnessgram pacer test",
-        "The darksouls of 2d platformers"
+        "the darksouls of 2D platformers"
     ];
 
     document.getElementById('motd').innerText += ` ${motd[Math.floor(Math.random() * motd.length)]}.`; 
