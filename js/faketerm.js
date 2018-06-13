@@ -14,7 +14,7 @@ let Members = "\n   ------------------------------------------------------------
                 "   --------------------------------------------------------------------------\n" +
                 "   | Founder   | Ben                | @Ben (plane000)#8618 | plane000       |\n" +
                 "   | Founder   | AhoZiorce          | @AhoZiorce           |                |\n" +
-                "   | Founder   | Extragornax        |                      |                |\n" +
+                "   | Founder   | Extragornax        | @Extragornax#2018    | extragornax    |\n" +
                 "   | Founder   | Jamason            |                      |                |\n" +
                 "   | Founder   | Will               | @b_boy_ww#6631       | b-boy-ww       |\n" +
                 "   | Founder   | xX_WhatsTheGeek_Xx | @WhatsTheGeekYT      | AlexanderRouma |\n" + 
