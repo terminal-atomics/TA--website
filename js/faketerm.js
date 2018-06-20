@@ -129,7 +129,7 @@ function drawClearCommand() {
     }
     position = 0;
     document.getElementById('terminal').value = "";
-    setTimeout(drawUser, 500);
+
 }
 
 function displayUser() {
@@ -146,4 +146,9 @@ function displayUser() {
     ];
     let status = user[Math.floor(Math.random() * user.length)];
     return status;
+}
+function user(arg) {
+    setTimeout(function(){ document.getElementById('terminal').value += "cd "; document.getElementById('terminal').value += `${arg}\n`; },400);
+    setTimeout(drawUser, 700);
+    setTimeout(drawClearCommand, 1000);
 }
