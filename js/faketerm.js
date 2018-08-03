@@ -147,8 +147,8 @@ function displayUser() {
     let status = user[Math.floor(Math.random() * user.length)];
     return status;
 }
-function user(arg) {
+/*function user(arg) {
     setTimeout(function(){ document.getElementById('terminal').value += "cd "; document.getElementById('terminal').value += `${arg}\n`; },400);
     setTimeout(drawUser, 700);
     setTimeout(drawClearCommand, 1000);
-}
+} */
