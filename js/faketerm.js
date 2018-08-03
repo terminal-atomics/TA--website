@@ -132,7 +132,7 @@ function drawClearCommand() {
 
 }
 
-function displayUser() {
+/*function displayUser() {
     let user = [
         "AhoZiorce",
         "Ben",
